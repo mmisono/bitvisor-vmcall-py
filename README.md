@@ -2,7 +2,7 @@
 
 ## Compile
 ```
-git clone htts://github.com/mmisono/bitvisor-vmcall-py --recursive
+git clone https://github.com/mmisono/bitvisor-vmcall-py --recursive
 cd bitvisor-vmcall-py
 mkdir build
 cd build
