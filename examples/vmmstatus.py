@@ -24,7 +24,7 @@ def vmcall_getstatus():
     ret = vmcall.vmcall(arg)
 
     if ret.rax != 0:
-        print("get_status return error {}".format(r.rax))
+        print("get_status return error {}".format(ret.rax))
         sys.exit(1)
 
     return buf.raw[:ret.rcx].decode()

@@ -39,6 +39,7 @@ ull get_function(const std::string &s){
     call_vmm_arg_t arg = {};
     arg.rax = 0;
     arg.rbx = (ull)s.c_str();
+    arg.rdi = 999;
     auto ret = vmcall(arg);
     return ret.rax;
 }
