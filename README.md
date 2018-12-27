@@ -1,5 +1,12 @@
 # bitvisor-vmcall-py
 
+## Install
+```
+git clone https://github.com/mmisono/bitvisor-vmcall-py
+pip install pybind
+pip install ./bitvisor-vmcall-py
+```
+
 ## Compile
 ```
 git clone https://github.com/mmisono/bitvisor-vmcall-py --recursive
