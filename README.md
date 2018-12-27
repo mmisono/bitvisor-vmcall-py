@@ -3,7 +3,7 @@
 ## Install
 ```
 git clone https://github.com/mmisono/bitvisor-vmcall-py
-pip install pybind
+pip install pybind11
 pip install ./bitvisor-vmcall-py
 ```
 
