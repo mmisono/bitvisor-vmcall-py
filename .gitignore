@@ -1,4 +1,7 @@
 *.swo
 *.swp
 *.pyc
+*.egg-info/
+*.so
 build/
+tmp/
